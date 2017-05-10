@@ -233,7 +233,7 @@ commander.command('account <email> <password>')
 	});
 
 commander.command('refresh [email]')
-	.description('Updates used torage of all accounts or just a single one')
+	.description('Updates used storage of all accounts or just a single one')
 	.action(async (email) => {
 		let accounts;
 		if (email) {
